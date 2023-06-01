@@ -1,0 +1,92 @@
+// Que- 1) w.a.p to convert temperature of fahrenheit to celcius.
+//code :
+#include<iostream>
+using namespace std;
+int main()
+{
+float fah;
+cout<<"Convert temperature of fahrenheit to celsius : "<<endl;
+cout<<"---------------------------------------------"<<endl;
+cout<<"Input the temperature in Fahrenheit : ";
+cin>>fah;
+cout<<"The temperature in Fahrenheit : "<<fah<<endl;
+cout<<"The temperature in Celsius : "<<(fah-32)*5/9;
+return 0;
+}
+
+
+// Que-2) w a p that calculates the volume of a cube.
+//code :
+#include<iostream>
+using namespace std;
+int main()
+{
+int side;
+cout<<"Calculate the volume of a cube"<<endl;
+cout<<"---------------------------------"<<endl;
+cout<<"Input the side of a cube ";
+cin>>side;
+cout<<"The volume of a cube is : "<<side*side*side;
+return 0;
+}
+
+// Que-3) w.a.p to find the third angle of a traingle.
+//code :
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int first, second;
+cout<<"Find the third angle of a traingle "<<endl;
+cout<<"-------------------------------------"<<endl;
+cout<<"Input the 1st angle of the traingle : ";
+cin>>first;
+cout<<"Input the 2nd angle of the traingle : ";
+cin>>second;
+int third = 180 - (first+second);
+cout<<"The 3rd angle of the traingle is "<<third;
+}
+
+// Que - 4) prepare a code to check the voters eligibility.
+//code :
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int age;
+cout << "Enter your age : ";
+cin >> age;
+if(age>=18)
+{
+cout<<"you are eligible to vote";
+}
+else{
+cout<<"you are not eligible to vote";
+}
+return 0;
+}
+
+
+//Que -5) check a length of a string.
+//code :
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string txt="Hi I'm learning in PFE, I will become a developer";
+//string s = txt.length();
+//cout<<"The length of string is "<<txt.length();
+if(txt.length()>28)
+{
+txt ="I will become an developer";
+cout<<"Print successfully";
+}
+else{
+cout<<txt;
+}
+return 0;
+}
+
