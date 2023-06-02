@@ -1,0 +1,91 @@
+//Que -1) change 2 strings with using 3rd variable.
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string a,b,c;
+cout<<"Enter 1st string : ";
+cin>>a;
+cout<<"Enter 2nd string : ";
+cin>>b;
+cout<<"Before swapping nos are "<<a <<" "<<b<<endl;
+c=a;
+a=b;
+b=c;
+cout<<"after swapping nos are "<<a << " "<<b;
+return 0;
+}
+
+//Que -2) w.a.p to print your details like name, address, phoneno, bloodgroup etc.
+// code :-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string name;
+string address;
+double phoneno;
+char bloodgroup;
+cout<<"Enter your name : ";
+cin>>name;
+cout<<"Enter your address : ";
+cin>>address;
+cout<<"Enter your phoneno : ";
+cin>>phoneno;
+cout<<"Enter your bloodgroup : ";
+cin>>bloodgroup;
+cout<<"My name is "<<name <<endl;
+cout<<"My address is "<<address <<endl;
+cout<<"My contact no is "<<phoneno <<endl;
+cout<<"My blood group is "<<bloodgroup;
+return 0;
+}
+
+//Que -3) Create a java program to change the value of given variable.
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a =10;
+int a+=10;
+cout<<"the value of a is "<<a;
+return 0;
+}
+
+//Que -4) w.a.p to print the Sum of three variables.
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,c,d;
+cout<<"enter a value of a : ";
+cin>>a;
+cout<<"enter a value of b : ";
+cin>>b;
+cout<<"enter a value of c : ";
+cin>>c;
+d=a+b+c;
+cout<<"the sum of 3nos are : "<<d;
+return 0;
+}
+
+//Que -5) w.a.p to print the Sum of three variables.
+//code :-
+#include<iostream>
+using namespace std;
+int main()
+{
+int a;
+cout<<"Enter the value of a : ";
+cin>>a;
+cout<<"the square of a is "<<a*a;
+return 0;
+}
+
