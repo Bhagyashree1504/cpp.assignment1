@@ -1,0 +1,81 @@
+//Que -1)w.a.p which initializes a variable name and greets with"Hello good day"
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string name ;
+cout<<"enter a name : ";
+cin>>name;
+cout<<"Hello "<<name ;cout<<" have a good day";
+return 0;
+}
+
+//Que -2) type casting is done from char to int and int to char.
+//code :-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a ;
+char b ;
+cout<<"Enter an int value : ";
+cin>>a;
+cout<<"Ascii value of a is "<<char(a)<<endl;
+cout<<"Enter an char value : ";
+cin>>b;
+cout<<"Ascii value of b is "<<(int)b;
+return 0;
+}
+
+//Que-3)  print length of your name and fullname and print its difference.
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string name , fullname;
+cout<<"Enter your name : ";
+cin>>name;
+cout<<"Enter your fullname : ";
+cin>>fullname;
+cout<<"length of name is "<<name.length()<<endl;
+cout<<"length of fullname is "<<fullname.length()<<endl;
+cout<<"Difference of lengths in betn them "<<fullname.length()-
+name.length();
+return 0;
+}
+
+//Que -4) concatenate for two strings.
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string str1, str2;
+cout<<"Enter str1";
+cin>>str1;
+cout<<"Enter str2";
+cin>>str2;
+cout<<"Concatenation of 2 strings are "<<str1+str2;
+return 0;
+}
+
+//Que-5) to print first 10 natural numbers.
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a=0 ;
+cout<<"The natural nos are : ";
+for(int i=1;i<=10;i++){
+cout<<i<<" ";
+}
+return 0;
+}
