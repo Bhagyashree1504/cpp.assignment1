@@ -1,0 +1,134 @@
+/* Que-1) Write a program to find the factorial value of any number entered through 
+the keyboard.
+(Using for and while)*/
+//code :- 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int n;
+long fact=1;
+cout<<"Enter a number : ";
+cin>>n; 
+for(int i=1; i<=n;i++)
+{
+fact *=i;
+}
+cout<<"Factorial of number is : "<<fact;
+return 0;
+}
+
+//factorial by while
+//code :-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int n; 
+long fact=1; 
+int i=1;
+cout<<"Enter the number : ";
+cin>>n;
+while(i<=n)
+{
+fact *=i;
+i++;
+}
+cout<<"Factorial of is number : "<<fact;
+return 0;
+}
+
+
+//Que:-2)  Print first 30 even numbers and the total of them.
+//COde:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int i, n=30, sum=0;
+for(int i =1; i<=n ; i++)
+{
+cout<<2*i<<" ";
+sum +=2*i;
+}
+cout<<"\n The sum of even nos are :"<<sum<<endl;
+return 0;
+}
+
+//Que:-3)  1. Prepare a basic calculator mechanism using a switch in java.
+// Addition, subtraction, multiplication, division, squared.
+//code:-
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int num1 = 20;
+int num2 = 5;
+char o;
+cout << "Enter the operator : ";
+cin >> o;
+switch (o)
+{
+case '+' :
+cout<<"Addition of nos are :"<<num1+num2;
+break;
+case '-' :
+cout<<"Substraction of nos are :"<<num1-num2;
+break;
+case '*' :
+cout<<"Multi of nos are :"<<num1*num2;
+break;
+case '/' :
+cout<<"Division of nos are "<<num1/num2;
+break;
+case '@' :
+cout<<" Sqaure of num1 is "<<num1*num1<<endl;
+cout<<"Square of num2 is "<<num2*num2;
+break;
+default :
+cout<<"Wrong choice";
+}
+return 0;
+}
+
+//Que-4)  Find area of the triangle, rectangle, circle.
+//code:- 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int b, h, r;
+cout << "Enter base and height : ";
+cin >> b >> h;
+cout << "Area of traingle is : " << b * h * 1 / 2 << endl;
+cout << "Enter base and height : ";
+cin >> b >> h;
+cout << " \n Area of rectangle is " << b * h << endl;
+cout << "Enter r : ";
+cin >> r;
+cout << "\n Area of circle is " << 3.14 * r * r;
+return 0;
+}
+
+/*Que :-5) How to merge two lists in java?
+Example: String1 = "mei hun gian"
+String2 = "mei hun bada takatwar"
+*/
+//Code :-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string str1 =" mei hun gian "; 
+string str2 =" mei hun bada takatwar";
+string str3= str1 + str2;
+cout<<"The merge of two strings are : "<<str3;
+return 0;
+}
+
