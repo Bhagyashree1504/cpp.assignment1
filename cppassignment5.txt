@@ -1,0 +1,238 @@
+
+/*Que:-1) Take a String named fname and other variable as lname.
+Concate the two strings.
+Print the length of the complete name.
+Print the name in lower case.*/
+//Code:- 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string str1= "FNAME";
+string str2 ="LNAME";
+string str3 =str1+str2;
+cout<<"the length of complete name is : "<<str3.length()<<endl;
+return 0;
+}
+
+//Que:-2) Concatenate one String and one integer.
+//code:- 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int i;
+string str;
+cout<<"Enter an integer : ";
+cin>>i;
+cout<<"Enter a string : ";
+cin>>str;
+string str1=str + char(i);
+cout<<"Concatenation is : "<<str1;
+return 0;
+}
+Que:-3) Print the below pattern
+*
+**
+***
+****
+***** */
+//code:- 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+for(int i =1; i<6;i++)
+{
+cout<<" ";
+for(int j=1;j<=i;j++)
+{
+cout<<"*";
+}cout<<endl;
+}
+}
+ Patterns:
+/*Que:-4) Print the below pattern
+**********
+**********
+**********
+**********
+*/
+//Code:-
+
+#include <iostream>
+using namespace std;
+int main()
+{
+for (int i = 1; i < 5; i++)
+{
+cout << "**********";
+cout << endl;
+}
+return 0;
+}
+
+/*que:-5) Print the below patterns.
+*
+**
+***
+****
+*****
+*/
+//Code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+for(int i=1; i<6; i++)
+{
+for(int j=1;j<=(5-i);j++)
+{
+cout<<" ";
+}
+for(int k=1;k<=i;k++)
+{
+cout<<"*";
+}cout<<endl;
+}
+return 0;
+}
+
+/*Que:-6)Print the below patterns.
+*
+***
+*****
+*******
+*********
+*/
+//Code:- 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+for (int i = 1; i <=5; i++)
+{
+for (int k = 1; k<=(5 - i); k++)
+{
+cout << " ";
+}
+for (int j= 0; j <i; j++)
+{
+cout << "*";
+}
+for (int j= 1; j<i; j++)
+{
+cout << "*";
+}
+cout << endl;
+}
+return 0;
+}
+
+ /*Que:- 7)Print the below patterns.
+1
+222
+33333
+4444444
+555555555
+*/
+//code:- 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+for (int i = 1; i <=5; i++)
+{
+for (int k = 1; k<=(5 - i); k++)
+{
+cout << " ";
+}
+for (int j= 0; j <i; j++)
+{
+cout <<i;
+}
+for (int j= 1; j<i; j++)
+{
+cout <<i;
+}
+cout << endl;
+}
+return 0;
+}
+
+/*Que:-8) pattern is
+a
+ab
+abc 
+abcd 
+abcde */
+//code:- 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+for(int i=97;i<=101;i++)
+{
+for(int j=97; j<=i;j++)
+{
+cout<<char(j);
+}
+cout<<endl;
+}
+return 0;
+}
+
+/*Que:-9) pattern is
+aA
+abAB
+abcABC
+abcdABCD
+abcdeABCDE */
+#include <iostream>
+using namespace std;
+int main()
+{
+for (int i = 97; i <= 101; i++)
+{
+for (int j = 97; j <= i; j++)
+{
+cout << char(j);
+}
+for (int m = 65; m <= (i - 32); m++)
+{
+cout << char(m);
+}
+cout << endl;
+}
+return 0;
+}
+
+/*Que:-10) pattern is 
+1
+14
+149
+14916
+1491625 */
+//Code:-
+
+#include <iostream>
+using namespace std;
+int main()
+{
+for(int i=1; i<=5; i++)
+{
+for( int j =1; j<=i;j++)
+{
+cout<<j*j;
+}
+cout<<endl;
+}
+return 0;
+}
