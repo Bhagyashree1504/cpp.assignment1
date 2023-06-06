@@ -1,0 +1,220 @@
+/Que-1) *pattern is
+t
+te
+tec
+tech
+techn
+techno
+*/
+//Code:- 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+string k = "techno";
+int a;
+(k[a]);
+for (int a = 0; a < 6; a++)
+{
+for (int j = 0; j <= a; j++)
+{
+cout << k[j];
+}
+cout << endl;
+}
+return 0;
+}
+
+/*Que-2) pattern is
+R
+Ro
+Roh
+Roha
+Rohan
+*/
+//code:-
+
+#include <iostream>
+using namespace std;
+int main()
+{
+string k = "Rohan";
+int a;
+(k[a]);
+for (int a = 0; a < 6; a++)
+{
+for (int j = 0; j < a; j++)
+{
+cout << k[j];
+}
+cout << endl;
+}
+return 0;
+}
+
+//QUe:-3) convert the string from uppercase to lowercase by input the string from the 
+user.
+//code:- 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+string str;
+cout<<"Enter a string :";
+cin>>str;
+str.length();
+int i;
+(str[i]);
+for(int i=0;i<str.length();i++)
+{
+cout<<char(str[i]+32);
+}
+return 0;
+}
+
+/*Que-4) Print the below pattern
+1234
+123
+12
+1*/
+//code:- 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+for (int i =1;i<5; i++)
+{
+for (int j=1 ; j<=(5-i); j++)
+{
+cout << j;
+}
+cout << endl;
+}
+return 0;
+}
+
+/*Que-5) Print the pattern 
+1
+212
+32123
+4321234
+543212345 */
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+for(int i=1;i<=5;i++)
+{
+for(int j=1;j<=(5-i);j++ )
+{
+cout<<" ";
+}
+for(int k=i;k>=1;k--)
+{
+cout<<k;
+}
+for(int l=2;l<=i;l++)
+{
+cout<<l;
+}
+cout<<endl;
+}
+return 0;
+}
+
+/*Que-6) Print the pattern 
+*
+**
+* *
+*  *
+*   *
+*    *
+******* 
+*/
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+for(int i=1;i<=7;i++)
+{
+for(int j=1;j<=i;j++)
+{
+if((j==1)||(i==7)||(i==j))
+{
+cout<<"*";
+}
+else{
+cout<<" ";
+}
+}
+cout<<endl;
+}
+return 0;
+}
+ Arrays:
+//Que-7) Write a cpp program to calculate the average value of array elements
+//code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a[5]={12,34,65,478,45 };
+int b= (a[0]+a[1]+a[2]+a[3]+a[4])/sizeof(a);
+cout<<b;
+return 0;
+}
+
+//Que-8) Write a cpp program to test if an array contains a specific value
+//code:- 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a[5] = {12, 34, 65, 478, 45};
+int target;
+int i;
+cout << "Enter value :";
+cin >> target;
+for (int i = 0; i < 5; i++)
+{
+if (target == a[i])
+{
+cout << a[i];
+}
+}
+return 0;
+}
+
+
+//Que-9) 
+#include <iostream>
+using namespace std;
+int main()
+{
+int a[] = {1,12, 34, 65, 478, 45};
+int n = sizeof(a) / sizeof(a[0]);
+cout << n << endl;
+int max = INT_MAX, min = INT_MIN;
+for (int i = 0; i <= n; i++)
+{
+if (min <= a[i])
+{
+min = a[i];
+}
+if (max >= a[i])
+{
+max = a[i];
+}
+}
+cout << "Minimum no is : " << max << endl;
+cout << "Maximum no is : " << min << endl;
+}
