@@ -1,0 +1,92 @@
+Que-1) Write a c++ program to calculate the area 
+of equilateral triangle.
+code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+float side;
+float height,area;
+cout<<"Enter Length of side ";
+cin>>side;
+cout<<" area by using height."<<endl;
+height=1.73205080757*(side/2);
+cout<<"Height of tringale is : "<<(height*side)*0.5<<endl;
+cout<<" area by only sides."<<endl;
+area=1.73205080757*((side*side)/4);
+cout<<"Area of an Equilateral traingle is : "<<area;
+return 0;
+}
+2) Write a program to enter principle , 
+time, rate of interest and calculate total 
+amount.
+code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int p,r,t;
+float amount;
+cout<<"Enter the value of principle :";
+cin>>p;
+cout<<"Enter the value of rate of interest :";
+cin>>r;
+cout<<"Enter the value of time :";
+cin>>t;
+amount = p*(1 + r*t);
+cout<<" total Amount is :"<<amount; 
+}
+
+3) Write a program to reverse a string.
+code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string str;
+int len;
+cout<<"Enter a string :";
+cin>>str;
+len=str.length();
+for(int i=str.length()-1 ;i>=0;i--)
+{
+cout<<str[i];
+}
+return 0;
+}
+
+4) write a prgm to calculate volume of 
+cylinder.
+code:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int r, h,v;
+cout<<"Enter radius :";
+cin>>r;
+cout<<"Enter height :";
+cin>>h;
+v=3.14*r*r*h;
+cout<<"volume of a cylinder :"<<v;
+return 0;
+}
+
+5)write a program to find the circumference of cylinder
+code:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int r,c;
+cout<<"Enter radius :";
+cin>>r;
+c=2*3.14*r;
+cout<<"circumference of a cylinder :"<<c;
+return 0;
+}
